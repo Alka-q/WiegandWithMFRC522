@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V3.11.1.207 for STM8                     21/Apr/2022  12:13:08
+# IAR ELF Linker V3.11.1.207 for STM8                     21/Apr/2022  12:26:01
 # Copyright 2010-2019 IAR Systems AB.
 #
 #    Output file  =  
@@ -8,7 +8,7 @@
 #    Map file     =  
 #        C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\EWSTM8\STM8S103\List\Project.map
 #    Command line =  
-#        -f C:\Users\Talha\AppData\Local\Temp\EWADD7.tmp
+#        -f C:\Users\Talha\AppData\Local\Temp\EW7D38.tmp
 #        (C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\EWSTM8\STM8S103\Obj\main.o
 #        C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\EWSTM8\STM8S103\Obj\stm8s_adc1.o
 #        C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\EWSTM8\STM8S103\Obj\stm8s_awu.o
@@ -28,10 +28,9 @@
 #        C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\EWSTM8\STM8S103\Obj\stm8s_tim4.o
 #        C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\EWSTM8\STM8S103\Obj\stm8s_uart1.o
 #        C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\EWSTM8\STM8S103\Obj\stm8s_wwdg.o
-#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
 #        --no_out_extension -o
 #        C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\EWSTM8\STM8S103\Exe\Project.out
-#        --map
+#        --strip --map
 #        C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\EWSTM8\STM8S103\List\Project.map
 #        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
 #        8.3\stm8\config\lnkstm8s103f3.icf" --config_def _CSTACK_SIZE=0x100

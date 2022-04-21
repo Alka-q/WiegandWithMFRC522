@@ -28,6 +28,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm8s_conf.h"
+#include "stm8s_tim1.h"
 
 ///////////////
 void main(void)

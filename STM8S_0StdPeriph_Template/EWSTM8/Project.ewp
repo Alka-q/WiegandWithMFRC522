@@ -2496,7 +2496,7 @@
                 </option>
                 <option>
                     <name>ExePath</name>
-                    <state>STM8S103\Exe</state>
+                    <state>C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\EWSTM8\STM8S103\Exe</state>
                 </option>
                 <option>
                     <name>ObjPath</name>
@@ -2527,20 +2527,20 @@
                 <option>
                     <name>GenLibInFormatter</name>
                     <version>0</version>
-                    <state>2</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>GenLibInFormatterDescription</name>
-                    <state>Full formatting, without multibytes.</state>
+                    <state>Automatic choice of formatter.</state>
                 </option>
                 <option>
                     <name>GenLibOutFormatter</name>
                     <version>0</version>
-                    <state>2</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>GenLibOutFormatterDescription</name>
-                    <state>Full formatting, without multibytes.</state>
+                    <state>Automatic choice of formatter.</state>
                 </option>
                 <option>
                     <name>GenStackSize</name>
@@ -2608,7 +2608,7 @@
                 </option>
                 <option>
                     <name>IccOptLevel</name>
-                    <state>3</state>
+                    <state>2</state>
                 </option>
                 <option>
                     <name>IccOptStrategy</name>
@@ -2617,12 +2617,12 @@
                 </option>
                 <option>
                     <name>IccOptLevelSlave</name>
-                    <state>3</state>
+                    <state>2</state>
                 </option>
                 <option>
                     <name>IccOptAllowList</name>
                     <version>0</version>
-                    <state>111111</state>
+                    <state>100100</state>
                 </option>
                 <option>
                     <name>IccGenerateDebugInfo</name>
@@ -3010,7 +3010,7 @@
                 </option>
                 <option>
                     <name>IlinkDebugInfoEnable</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>IlinkKeepSymbols</name>
@@ -3272,7 +3272,7 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state>###Unitialized###</state>
+                    <state>C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\EWSTM8\STM8S103\Exe\Project.a</state>
                 </option>
             </data>
         </settings>

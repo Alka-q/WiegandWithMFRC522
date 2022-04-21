@@ -48884,7 +48884,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "33",
+      "line": "34",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "main",
@@ -48898,7 +48898,7 @@
     "display": "void assert_failed(u8 *, u32)",
     "location": {
       "column": "6",
-      "line": "65",
+      "line": "66",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "assert_failed",
