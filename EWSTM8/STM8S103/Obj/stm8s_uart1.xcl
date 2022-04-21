@@ -1,16 +1,16 @@
-"C:\Users\Talha\Documents\GitHub\STM8S_With_Mifare4UID\STM8S_0StdPeriph_Driver\src\stm8s_uart1.c"
+"C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Driver\src\stm8s_uart1.c"
 -std=c99
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-C:\Users\Talha\Documents\GitHub\STM8S_With_Mifare4UID\EWSTM8\STM8S103\Obj\stm8s_uart1.pbi.dep
+C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\EWSTM8\STM8S103\Obj\stm8s_uart1.pbi.dep
 -o
 stm8s_uart1.pbi
 -I
-C:\Users\Talha\Documents\GitHub\STM8S_With_Mifare4UID\STM8S_0StdPeriph_Driver\src
+C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Driver\src
 -I
-C:\Users\Talha\Documents\GitHub\STM8S_With_Mifare4UID\EWSTM8\..
+C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\EWSTM8\..
 -I
 D:\workspace\STM8-WorkSpace\STM8S_0StdPeriph_Driver\inc
 -I
@@ -20,7 +20,7 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc\c
 -I
-C:\Users\Talha\Documents\GitHub\STM8S_With_Mifare4UID
+C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522
 -I
 D:\workspace\STM8-WorkSpace\STM8S_0StdPeriph_Driver\inc
 -I

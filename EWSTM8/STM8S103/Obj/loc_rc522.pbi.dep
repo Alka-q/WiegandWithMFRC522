@@ -1,8 +1,8 @@
 loc_rc522.pbi: \
-  C:\Users\Talha\Documents\GitHub\STM8S_With_Mifare4UID\loc_rc522.c \
-  C:\Users\Talha\Documents\GitHub\STM8S_With_Mifare4UID/loc_rc522.h \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\loc_rc522.c \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522/loc_rc522.h \
   C:\Users\Talha\Desktop\D'den\ yedeklenenler\workspace\STM8S_With_Mifare(4UID)\STM8S_0StdPeriph_Driver\inc\stm8s.h \
-  C:\Users\Talha\Documents\GitHub\STM8S_With_Mifare4UID\stm8s_conf.h \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\stm8s_conf.h \
   C:\Users\Talha\Desktop\D'den\ yedeklenenler\workspace\STM8S_With_Mifare(4UID)\STM8S_0StdPeriph_Driver\inc\stm8s_adc1.h \
   C:\Users\Talha\Desktop\D'den\ yedeklenenler\workspace\STM8S_With_Mifare(4UID)\STM8S_0StdPeriph_Driver\inc/stm8s.h \
   C:\Users\Talha\Desktop\D'den\ yedeklenenler\workspace\STM8S_With_Mifare(4UID)\STM8S_0StdPeriph_Driver\inc\stm8s_awu.h \

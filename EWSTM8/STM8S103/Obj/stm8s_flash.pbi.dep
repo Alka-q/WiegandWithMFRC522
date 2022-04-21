@@ -1,8 +1,8 @@
 stm8s_flash.pbi: \
-  C:\Users\Talha\Documents\GitHub\STM8S_With_Mifare4UID\STM8S_0StdPeriph_Driver\src\stm8s_flash.c \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Driver\src\stm8s_flash.c \
   C:\Users\Talha\Desktop\D'den\ yedeklenenler\workspace\STM8S_With_Mifare(4UID)\STM8S_0StdPeriph_Driver\inc\stm8s_flash.h \
   C:\Users\Talha\Desktop\D'den\ yedeklenenler\workspace\STM8S_With_Mifare(4UID)\STM8S_0StdPeriph_Driver\inc/stm8s.h \
-  C:\Users\Talha\Documents\GitHub\STM8S_With_Mifare4UID\EWSTM8\..\stm8s_conf.h \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\EWSTM8\..\stm8s_conf.h \
   C:\Users\Talha\Desktop\D'den\ yedeklenenler\workspace\STM8S_With_Mifare(4UID)\STM8S_0StdPeriph_Driver\inc\stm8s.h \
   C:\Users\Talha\Desktop\D'den\ yedeklenenler\workspace\STM8S_With_Mifare(4UID)\STM8S_0StdPeriph_Driver\inc\stm8s_adc1.h \
   C:\Users\Talha\Desktop\D'den\ yedeklenenler\workspace\STM8S_With_Mifare(4UID)\STM8S_0StdPeriph_Driver\inc\stm8s_awu.h \
