@@ -12,9 +12,9 @@ C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template
 -I
 C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\EWSTM8\..
 -I
-D:\workspace\STM8-WorkSpace\STM8S_0StdPeriph_Driver\inc
--I
 C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc
+-I
+C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\src
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc
 -I
@@ -22,9 +22,9 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc\c
 -I
 C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template
 -I
-D:\workspace\STM8-WorkSpace\STM8S_0StdPeriph_Driver\inc
--I
 C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc
+-I
+C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\src
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

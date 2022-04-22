@@ -29,7 +29,7 @@ void Send_MF_Read_CMD(void);
 void Send_MF_Write_CMD();       //Cihaza gönderilecek WRITE CMD 
 void SendDataToUart1(unsigned char *msg_string, unsigned char TCount);
 void SendData2Uart1(unsigned char *msg_string, unsigned char TCount);
-void UART1_Settings(unsigned char *BaudR);       //It can change baud speed.
+void UART1_Settings(unsigned char *BaudR);       //replaceable baud speed.
 
 void AuthenticateError();
 
@@ -41,7 +41,9 @@ void GPIO_setup(void);
 void UART1_setup(void);
 void Delay (uint16_t time);
 void Delay_ms (uint16_t time);
-void Hex2Binary(unsigned char *msg_string, unsigned char *PoutData);
+//void Hex2Binary(unsigned char *msg_string, unsigned char *PoutData);
+void Hex2Binary(unsigned char *msg_string, unsigned char *FirstNum, unsigned char *SecNum);
+void ExplosionHexDecSys(unsigned char *ComingHex, unsigned char HexLen, unsigned char *FirstNum, unsigned char *SecNum);
 
 void Dec2Hex(unsigned int dec);
 char dec2hex[10];
@@ -81,9 +83,10 @@ void delayY(long x)
     asm("nop");
   }
 }
-unsigned char HexData[8] = {0x12, 0x24, 0x23, 0x25, 0x55};
+unsigned char HexData[8] = {0x12, 0x24, 0x23, 0x25, 0x55, 0xAB};
 unsigned char BinaryData[8];
-
+unsigned char FirtsD[8];
+unsigned char SeconD[8];
 unsigned char ReqALL = PICC_REQALL;
 
 void main(void)
@@ -97,7 +100,7 @@ void main(void)
   while (1)
   {
     
-    Hex2Binary(HexData, BinaryData);
+    Hex2Binary(HexData, FirtsD, SeconD);
 
     
 /*  ATQBuf[2]; Card Type
@@ -143,19 +146,22 @@ void main(void)
   }//End Of The While Loop
 }//End Of The Main Foncion
 
-void Hex2Binary(unsigned char *msg_string, unsigned char *PoutData)
+void Hex2Binary(unsigned char *msg_string, unsigned char *FirstNum, unsigned char *SecNum)
 {
   unsigned char GData[20];
-  int a =40 ,b = 10,  sonuc;
-  
-  unsigned char SData[20];
+
   unsigned char i;
+  
   for(i = 0; i < 8; i++)
-  {
+  { 
     GData[i] = *(msg_string + i);
-    SData[i] = GData[i] % 10 ;
     
-    *(PoutData + i) = SData[i];
+    *(FirstNum + i) =  GData[i] % 16 ;       //ilk Basamak 
+
+    *(SecNum + i) = GData[i] / 16 ;          //Ikinci Basnak
+    
+//    SonucData[i] = 16*BData[i] + SData[i];
+//    *(PoutData + i) = SonucData[i];
   }
   
   /*
@@ -164,6 +170,31 @@ void Hex2Binary(unsigned char *msg_string, unsigned char *PoutData)
   case 0 : SData[i] =   
   }
   */
+}
+
+/**********Hexadecimal sayi sitemini parçala************************/
+void ExplosionHexDecSys(unsigned char *ComingHex, unsigned char HexLen, unsigned char *FirstNum, unsigned char *SecNum)
+{
+  unsigned char GData[20];
+//  unsigned char BData[HexLen];
+//  unsigned char SData[HexLen];
+//  unsigned char SonucData[HexLen];
+  unsigned char i;
+  unsigned int Lenght;
+  Lenght = strlen(ComingHex); //sizeof(ComingHex);
+  Lenght = 20;
+  //for(i = 0; i < HexLen; i++)
+  for(i = 0; i < Lenght; i++)
+  {
+    GData[i] = *(ComingHex + i);
+    
+    *(FirstNum + i) =  GData[i] % 16 ;       //ilk Basamak 
+
+    *(SecNum + i) = GData[i] / 16 ;          //Ikinci Basnak
+    
+//    SonucData[i] = 16*BData[i] + SData[i];
+//    *(PoutData + i) = SonucData[i];
+  }
 }
 
 /******************************************************************************/
