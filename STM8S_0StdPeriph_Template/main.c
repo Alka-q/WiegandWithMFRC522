@@ -43,7 +43,7 @@ void Delay (uint16_t time);
 void Delay_ms (uint16_t time);
 //void Hex2Binary(unsigned char *msg_string, unsigned char *PoutData);
 //void Hex2Binary(unsigned char *msg_string, unsigned char *FirstNum, unsigned char *SecNum);
-void Hex2Binary(unsigned char *msg_string, unsigned char *FirstNum, unsigned char *SecNum, unsigned long int *BOutData);
+void Hex2Binary(unsigned char *msg_string, unsigned char *FirstNum, unsigned char *SecNum, unsigned long int *BOutData, unsigned char *BinaryData);
 void ExplosionHexDecSys(unsigned char *ComingHex, unsigned char HexLen, unsigned char *FirstNum, unsigned char *SecNum);
 
 void Dec2Hex(unsigned int dec);
@@ -89,6 +89,7 @@ unsigned char HexData[8] = {0x12, 0x24, 0x23, 0x25, 0x55, 0xAB};
 unsigned char FirtsD[8];
 unsigned char SeconD[8];
 unsigned long int BinaryData[8];
+unsigned char Binary01[8];
 unsigned char ReqALL = PICC_REQALL;
 
 void main(void)
@@ -101,7 +102,7 @@ void main(void)
   PcdReset();
   while (1)
   {
-   Hex2Binary(HexData, FirtsD, SeconD, BinaryData);
+   Hex2Binary(HexData, FirtsD, SeconD, BinaryData, Binary01);
 
 /*  ATQBuf[2]; Card Type
     0x4400 = Mifare_UltraLight    
@@ -146,6 +147,83 @@ void main(void)
   }//End Of The While Loop
 }//End Of The Main Foncion
 
+
+
+void Hex2Binary(unsigned char *msg_string, unsigned char *FirstNum, unsigned char *SecNum, 
+                unsigned long int *BOutData, unsigned char *BinaryData)
+{
+  unsigned char GData[20];
+  unsigned char FHtoB[20];
+  unsigned char SHtoB[20];
+  unsigned long int FData[20];
+  unsigned long int SData[20];
+  unsigned char SendSignal[8];
+
+  unsigned char i;
+  
+  for(i = 0; i < 8; i++)
+  { 
+    GData[i] = *(msg_string + i);
+    
+    *(FirstNum + i) =  GData[i] % 16 ;       //ilk Basamak 
+
+    *(SecNum + i) = GData[i] / 16 ;          //Ikinci Basnak
+    
+//    SonucData[i] = 16*BData[i] + SData[i];
+//    *(PoutData + i) = SonucData[i];
+    FHtoB[i] = *(FirstNum + i);
+    SHtoB[i] = *(SecNum + i);
+    
+    switch (FHtoB[i])
+    {
+    case 0 : FData[i] = 0000, SendSignal[0]=0,SendSignal[1]=0,SendSignal[2]=0,SendSignal[3]=0; break;   
+    case 1 : FData[i] = 0001, SendSignal[0]=0,SendSignal[1]=0,SendSignal[2]=0,SendSignal[3]=1; break;
+    case 2 : FData[i] = 0010, SendSignal[0]=0,SendSignal[1]=0,SendSignal[2]=1,SendSignal[3]=1; break;
+    case 3 : FData[i] = 0011, SendSignal[0]=0,SendSignal[1]=0,SendSignal[2]=1,SendSignal[3]=1; break;
+    case 4 : FData[i] = 0100, SendSignal[0]=0,SendSignal[1]=1,SendSignal[2]=0,SendSignal[3]=0; break;
+    case 5 : FData[i] = 0101, SendSignal[0]=0,SendSignal[1]=1,SendSignal[2]=0,SendSignal[3]=1; break;
+    case 6 : FData[i] = 0110, SendSignal[0]=0,SendSignal[1]=1,SendSignal[2]=1,SendSignal[3]=0; break;
+    case 7 : FData[i] = 0111, SendSignal[0]=0,SendSignal[1]=1,SendSignal[2]=1,SendSignal[3]=1; break;
+    case 8 : FData[i] = 1000, SendSignal[0]=1,SendSignal[1]=0,SendSignal[2]=0,SendSignal[3]=0; break;
+    case 9 : FData[i] = 1001, SendSignal[0]=1,SendSignal[1]=0,SendSignal[2]=0,SendSignal[3]=1; break;
+    case 0x0A : FData[i] = 1010, SendSignal[0]=1,SendSignal[1]=0,SendSignal[2]=1,SendSignal[3]=0; break;
+    case 0x0B : FData[i] = 1011, SendSignal[0]=1,SendSignal[1]=0,SendSignal[2]=1,SendSignal[3]=1; break;
+    case 0x0C : FData[i] = 1100, SendSignal[0]=1,SendSignal[1]=1,SendSignal[2]=0,SendSignal[3]=0; break;
+    case 0x0D : FData[i] = 1101, SendSignal[0]=1,SendSignal[1]=1,SendSignal[2]=0,SendSignal[3]=1; break;
+    case 0x0E : FData[i] = 1110, SendSignal[0]=1,SendSignal[1]=1,SendSignal[2]=1,SendSignal[3]=0; break;
+    case 0x0F : FData[i] = 1111, SendSignal[0]=1,SendSignal[1]=1,SendSignal[2]=1,SendSignal[3]=1; break;
+ 
+    }
+    
+    switch (SHtoB[i])
+    {
+    case 0 : SData[i] = 0000, SendSignal[4]=0,SendSignal[5]=0,SendSignal[6]=0,SendSignal[7]=0;  break;
+    case 1 : SData[i] = 0001, SendSignal[4]=0,SendSignal[5]=0,SendSignal[6]=0,SendSignal[7]=1;  break;
+    case 2 : SData[i] = 0010, SendSignal[4]=0,SendSignal[5]=0,SendSignal[6]=1,SendSignal[7]=1;  break;
+    case 3 : SData[i] = 0011, SendSignal[4]=0,SendSignal[5]=0,SendSignal[6]=1,SendSignal[7]=1;  break;
+    case 4 : SData[i] = 0100, SendSignal[4]=0,SendSignal[5]=1,SendSignal[6]=0,SendSignal[7]=0;  break;
+    case 5 : SData[i] = 0101, SendSignal[4]=0,SendSignal[5]=1,SendSignal[6]=0,SendSignal[7]=1;  break;
+    case 6 : SData[i] = 0110, SendSignal[4]=0,SendSignal[5]=1,SendSignal[6]=1,SendSignal[7]=0;  break;
+    case 7 : SData[i] = 0111, SendSignal[4]=0,SendSignal[5]=1,SendSignal[6]=1,SendSignal[7]=1;  break;
+    case 8 : SData[i] = 1000, SendSignal[4]=1,SendSignal[5]=0,SendSignal[6]=0,SendSignal[7]=0;  break;
+    case 9 : SData[i] = 1001, SendSignal[4]=1,SendSignal[5]=0,SendSignal[6]=0,SendSignal[7]=1;  break;
+    case 0x0A : SData[i] = 1010, SendSignal[0]=1,SendSignal[1]=0,SendSignal[2]=1,SendSignal[3]=0; break;
+    case 0x0B : SData[i] = 1011, SendSignal[0]=1,SendSignal[1]=0,SendSignal[2]=1,SendSignal[3]=1; break;
+    case 0x0C : SData[i] = 1100, SendSignal[0]=1,SendSignal[1]=1,SendSignal[2]=0,SendSignal[3]=0; break;
+    case 0x0D : SData[i] = 1101, SendSignal[0]=1,SendSignal[1]=1,SendSignal[2]=0,SendSignal[3]=1; break;
+    case 0x0E : SData[i] = 1110, SendSignal[0]=1,SendSignal[1]=1,SendSignal[2]=1,SendSignal[3]=0; break;
+    case 0x0F : SData[i] = 1111, SendSignal[0]=1,SendSignal[1]=1,SendSignal[2]=1,SendSignal[3]=1; break;
+    }
+     
+    *(BOutData + i) = ((SData[i]*2) + FData[i]);
+    *(BinaryData + i) = SendSignal[i];
+  } 
+  /*for(int a = 0; a<8; a++){
+    *(BinaryData + a) = SendSignal[a];
+  }*/
+}
+
+/*
 void Hex2Binary(unsigned char *msg_string, unsigned char *FirstNum, unsigned char *SecNum, unsigned long int *BOutData )
 {
   unsigned char GData[20];
@@ -171,63 +249,60 @@ void Hex2Binary(unsigned char *msg_string, unsigned char *FirstNum, unsigned cha
     
     switch (FHtoB[i])
     {
-    case 0 : FData[i] = 0000; break;
-    case 1 : FData[i] = 0001; break;
-    case 2 : FData[i] = 0010; break;
-    case 3 : FData[i] = 0011; break;
-    case 4 : FData[i] = 0100; break;
-    case 5 : FData[i] = 0101; break;
-    case 6 : FData[i] = 0110; break;
-    case 7 : FData[i] = 0111; break;
-    case 8 : FData[i] = 1000; break;
-    case 9 : FData[i] = 1001; break;
-    case 0x0A : FData[i] = 1010; break;                  //case 'A' : SData[i] = 1010; break;
-   // case 0x0a : SData[i] = 1010; break;                  //case 'a' : SData[i] = 1010; break;
-    case 0x0B : FData[i] = 1011; break;                  //case 'B' : SData[i] = 1011; break;
-    //case 0x0b : SData[i] = 1011; break;                  //case 'b' : SData[i] = 1011; break;
-    case 0x0C : FData[i] = 1100; break;                  //case 'C' : SData[i] = 1100; break;
-   // case 'c' : SData[i] = 1100; break;                  //case 'c' : SData[i] = 1100; break;
-    case 0x0D : FData[i] = 1101; break;                  //case 'D' : SData[i] = 1101; break;
-   // case 'd' : SData[i] = 1101; break;                  //case 'd' : SData[i] = 1101; break;
-    case 0x0E : FData[i] = 1110; break;                  //case 'E' : SData[i] = 1110; break;
-   // case 'e' : SData[i] = 1110; break;                  //case 'e' : SData[i] = 1110; break;
-    case 0x0F : FData[i] = 1111; break;                  //case 'F' : SData[i] = 1111; break;
-   // case 'f' : SData[i] = 1111; break;                  //case 'f' : SData[i] = 1111; break;
+       case 0 : FData[i] = 0000; break;
+       case 1 : FData[i] = 0001; break;
+       case 2 : FData[i] = 0010; break;
+       case 3 : FData[i] = 0011; break;
+       case 4 : FData[i] = 0100; break;
+       case 5 : FData[i] = 0101; break;
+       case 6 : FData[i] = 0110; break;
+       case 7 : FData[i] = 0111; break;
+       case 8 : FData[i] = 1000; break;
+       case 9 : FData[i] = 1001; break;
+       case 0x0A : FData[i] = 1010; break;                  //case 'A' : SData[i] = 1010; break;
+     // case 0x0a : SData[i] = 1010; break;                  //case 'a' : SData[i] = 1010; break;
+       case 0x0B : FData[i] = 1011; break;                  //case 'B' : SData[i] = 1011; break;
+       //case 0x0b : SData[i] = 1011; break;                  //case 'b' : SData[i] = 1011; break;
+       case 0x0C : FData[i] = 1100; break;                  //case 'C' : SData[i] = 1100; break;
+     // case 'c' : SData[i] = 1100; break;                  //case 'c' : SData[i] = 1100; break;
+       case 0x0D : FData[i] = 1101; break;                  //case 'D' : SData[i] = 1101; break;
+     // case 'd' : SData[i] = 1101; break;                  //case 'd' : SData[i] = 1101; break;
+       case 0x0E : FData[i] = 1110; break;                  //case 'E' : SData[i] = 1110; break;
+     // case 'e' : SData[i] = 1110; break;                  //case 'e' : SData[i] = 1110; break;
+       case 0x0F : FData[i] = 1111; break;                  //case 'F' : SData[i] = 1111; break;
+     // case 'f' : SData[i] = 1111; break;                  //case 'f' : SData[i] = 1111; break;
     }
     
     switch (SHtoB[i])
     {
-    case 0 : SData[i] = 0000; break;
-    case 1 : SData[i] = 0001; break;
-    case 2 : SData[i] = 0010; break;
-    case 3 : SData[i] = 0011; break;
-    case 4 : SData[i] = 0100; break;
-    case 5 : SData[i] = 0101; break;
-    case 6 : SData[i] = 0110; break;
-    case 7 : SData[i] = 0111; break;
-    case 8 : SData[i] = 1000; break;
-    case 9 : SData[i] = 1001; break;
-    case 0x0A : SData[i] = 1010; break;                  //case 'A' : SData[i] = 1010; break;
-   // case 0x0a : SData[i] = 1010; break;                  //case 'a' : SData[i] = 1010; break;
-    case 0x0B : SData[i] = 1011; break;                  //case 'B' : SData[i] = 1011; break;
-    //case 0x0b : SData[i] = 1011; break;                  //case 'b' : SData[i] = 1011; break;
-    case 0x0C : SData[i] = 1100; break;                  //case 'C' : SData[i] = 1100; break;
-   // case 'c' : SData[i] = 1100; break;                  //case 'c' : SData[i] = 1100; break;
-    case 0x0D : SData[i] = 1101; break;                  //case 'D' : SData[i] = 1101; break;
-   // case 'd' : SData[i] = 1101; break;                  //case 'd' : SData[i] = 1101; break;
-    case 0x0E : SData[i] = 1110; break;                  //case 'E' : SData[i] = 1110; break;
-   // case 'e' : SData[i] = 1110; break;                  //case 'e' : SData[i] = 1110; break;
-    case 0x0F : SData[i] = 1111; break;                  //case 'F' : SData[i] = 1111; break;
-   // case 'f' : SData[i] = 1111; break;                  //case 'f' : SData[i] = 1111; break;
+       case 0 : SData[i] = 0000; break;
+       case 1 : SData[i] = 0001; break;
+       case 2 : SData[i] = 0010; break;
+       case 3 : SData[i] = 0011; break;
+       case 4 : SData[i] = 0100; break;
+       case 5 : SData[i] = 0101; break;
+       case 6 : SData[i] = 0110; break;
+       case 7 : SData[i] = 0111; break;
+       case 8 : SData[i] = 1000; break;
+       case 9 : SData[i] = 1001; break;
+       case 0x0A : SData[i] = 1010; break;                  //case 'A' : SData[i] = 1010; break;
+     // case 0x0a : SData[i] = 1010; break;                  //case 'a' : SData[i] = 1010; break;
+       case 0x0B : SData[i] = 1011; break;                  //case 'B' : SData[i] = 1011; break;
+       //case 0x0b : SData[i] = 1011; break;                  //case 'b' : SData[i] = 1011; break;
+       case 0x0C : SData[i] = 1100; break;                  //case 'C' : SData[i] = 1100; break;
+     // case 'c' : SData[i] = 1100; break;                  //case 'c' : SData[i] = 1100; break;
+       case 0x0D : SData[i] = 1101; break;                  //case 'D' : SData[i] = 1101; break;
+     // case 'd' : SData[i] = 1101; break;                  //case 'd' : SData[i] = 1101; break;
+       case 0x0E : SData[i] = 1110; break;                  //case 'E' : SData[i] = 1110; break;
+     // case 'e' : SData[i] = 1110; break;                  //case 'e' : SData[i] = 1110; break;
+       case 0x0F : SData[i] = 1111; break;                  //case 'F' : SData[i] = 1111; break;
+     // case 'f' : SData[i] = 1111; break;                  //case 'f' : SData[i] = 1111; break;
     }
     
     *(BOutData + i) = ((SData[i]*2) + FData[i]);
     
-  }
-  
-
-  
-}
+  } 
+}*/
 /**********Hexadecimal sayi sitemini parçala************************/
 void ExplosionHexDecSys(unsigned char *ComingHex, unsigned char HexLen, unsigned char *FirstNum, unsigned char *SecNum)
 {
