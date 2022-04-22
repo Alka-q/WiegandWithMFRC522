@@ -90,6 +90,7 @@ unsigned char FirtsD[8];
 unsigned char SeconD[8];
 unsigned long int BinaryData[8];
 unsigned char Binary01[8];
+unsigned char Binary32bit[32];
 unsigned char ReqALL = PICC_REQALL;
 
 void main(void)
@@ -102,7 +103,9 @@ void main(void)
   PcdReset();
   while (1)
   {
-   Hex2Binary(HexData, FirtsD, SeconD, BinaryData, Binary01);
+    for(int say=0; say<4; say++){
+      Hex2Binary(HexData, FirtsD, SeconD, BinaryData, Binary01);
+    }   
 
 /*  ATQBuf[2]; Card Type
     0x4400 = Mifare_UltraLight    
@@ -146,8 +149,6 @@ void main(void)
      PcdHalt();
   }//End Of The While Loop
 }//End Of The Main Foncion
-
-
 
 void Hex2Binary(unsigned char *msg_string, unsigned char *FirstNum, unsigned char *SecNum, 
                 unsigned long int *BOutData, unsigned char *BinaryData)

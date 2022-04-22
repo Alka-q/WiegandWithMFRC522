@@ -53952,13 +53952,27 @@
     "scope": null
   },
   {
+    "ID": "c:@Binary32bit",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Binary32bit",
+    "location": {
+      "column": "15",
+      "line": "93",
+      "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
+    },
+    "name": "Binary32bit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@ReqALL",
     "What": "Variable",
     "defdec": "Def",
     "display": "ReqALL",
     "location": {
       "column": "15",
-      "line": "93",
+      "line": "94",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "ReqALL",
@@ -53972,7 +53986,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "95",
+      "line": "96",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "main",
@@ -53980,13 +53994,27 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4484@F@main@cnt",
+    "ID": "c:main.c@3633@F@main@say",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "say",
+    "location": {
+      "column": "13",
+      "line": "106",
+      "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
+    },
+    "name": "say",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@4564@F@main@cnt",
     "What": "Variable",
     "defdec": "Def",
     "display": "cnt",
     "location": {
       "column": "17",
-      "line": "142",
+      "line": "145",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "cnt",
@@ -54000,7 +54028,7 @@
     "display": "void Hex2Binary(unsigned char *, unsigned char *, unsigned char *, unsigned long *, unsigned char *)",
     "location": {
       "column": "6",
-      "line": "152",
+      "line": "153",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "Hex2Binary",
@@ -54008,13 +54036,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4812@F@Hex2Binary@GData",
+    "ID": "c:main.c@4888@F@Hex2Binary@GData",
     "What": "Variable",
     "defdec": "Def",
     "display": "GData",
     "location": {
       "column": "17",
-      "line": "155",
+      "line": "156",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "GData",
@@ -54022,13 +54050,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4840@F@Hex2Binary@FHtoB",
+    "ID": "c:main.c@4916@F@Hex2Binary@FHtoB",
     "What": "Variable",
     "defdec": "Def",
     "display": "FHtoB",
     "location": {
       "column": "17",
-      "line": "156",
+      "line": "157",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "FHtoB",
@@ -54036,13 +54064,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4868@F@Hex2Binary@SHtoB",
+    "ID": "c:main.c@4944@F@Hex2Binary@SHtoB",
     "What": "Variable",
     "defdec": "Def",
     "display": "SHtoB",
     "location": {
       "column": "17",
-      "line": "157",
+      "line": "158",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "SHtoB",
@@ -54050,13 +54078,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4896@F@Hex2Binary@FData",
+    "ID": "c:main.c@4972@F@Hex2Binary@FData",
     "What": "Variable",
     "defdec": "Def",
     "display": "FData",
     "location": {
       "column": "21",
-      "line": "158",
+      "line": "159",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "FData",
@@ -54064,13 +54092,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4928@F@Hex2Binary@SData",
+    "ID": "c:main.c@5004@F@Hex2Binary@SData",
     "What": "Variable",
     "defdec": "Def",
     "display": "SData",
     "location": {
       "column": "21",
-      "line": "159",
+      "line": "160",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "SData",
@@ -54078,13 +54106,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4960@F@Hex2Binary@SendSignal",
+    "ID": "c:main.c@5036@F@Hex2Binary@SendSignal",
     "What": "Variable",
     "defdec": "Def",
     "display": "SendSignal",
     "location": {
       "column": "17",
-      "line": "160",
+      "line": "161",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "SendSignal",
@@ -54092,13 +54120,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4994@F@Hex2Binary@i",
+    "ID": "c:main.c@5070@F@Hex2Binary@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "17",
-      "line": "162",
+      "line": "163",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "i",
@@ -54112,7 +54140,7 @@
     "display": "void ExplosionHexDecSys(unsigned char *, unsigned char, unsigned char *, unsigned char *)",
     "location": {
       "column": "6",
-      "line": "307",
+      "line": "308",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "ExplosionHexDecSys",
@@ -54120,13 +54148,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@13179@F@ExplosionHexDecSys@GData",
+    "ID": "c:main.c@13255@F@ExplosionHexDecSys@GData",
     "What": "Variable",
     "defdec": "Def",
     "display": "GData",
     "location": {
       "column": "17",
-      "line": "309",
+      "line": "310",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "GData",
@@ -54134,13 +54162,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@13313@F@ExplosionHexDecSys@i",
+    "ID": "c:main.c@13389@F@ExplosionHexDecSys@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "17",
-      "line": "313",
+      "line": "314",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "i",
@@ -54148,13 +54176,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@13333@F@ExplosionHexDecSys@Lenght",
+    "ID": "c:main.c@13409@F@ExplosionHexDecSys@Lenght",
     "What": "Variable",
     "defdec": "Def",
     "display": "Lenght",
     "location": {
       "column": "16",
-      "line": "314",
+      "line": "315",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "Lenght",
@@ -54168,7 +54196,7 @@
     "display": "void SendDataToUart1(unsigned char *, unsigned char)",
     "location": {
       "column": "6",
-      "line": "332",
+      "line": "333",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "SendDataToUart1",
@@ -54176,13 +54204,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@13916@F@SendDataToUart1@ixi",
+    "ID": "c:main.c@13992@F@SendDataToUart1@ixi",
     "What": "Variable",
     "defdec": "Def",
     "display": "ixi",
     "location": {
       "column": "16",
-      "line": "334",
+      "line": "335",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "ixi",
@@ -54196,7 +54224,7 @@
     "display": "void SendData2Uart1(unsigned char *, unsigned char)",
     "location": {
       "column": "6",
-      "line": "362",
+      "line": "363",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "SendData2Uart1",
@@ -54204,13 +54232,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@14582@F@SendData2Uart1@ixi",
+    "ID": "c:main.c@14658@F@SendData2Uart1@ixi",
     "What": "Variable",
     "defdec": "Def",
     "display": "ixi",
     "location": {
       "column": "16",
-      "line": "364",
+      "line": "365",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "ixi",
@@ -54224,7 +54252,7 @@
     "display": "void Delay(uint16_t)",
     "location": {
       "column": "6",
-      "line": "379",
+      "line": "380",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "Delay",
@@ -54238,7 +54266,7 @@
     "display": "void Delay_ms(uint16_t)",
     "location": {
       "column": "6",
-      "line": "384",
+      "line": "385",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "Delay_ms",
@@ -54246,13 +54274,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@15174@F@Delay_ms@cnt",
+    "ID": "c:main.c@15250@F@Delay_ms@cnt",
     "What": "Variable",
     "defdec": "Def",
     "display": "cnt",
     "location": {
       "column": "11",
-      "line": "386",
+      "line": "387",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "cnt",
@@ -54266,7 +54294,7 @@
     "display": "void ComMifare_Uart1_ISR(void)",
     "location": {
       "column": "6",
-      "line": "394",
+      "line": "395",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "ComMifare_Uart1_ISR",
@@ -54280,7 +54308,7 @@
     "display": "void Dec2Hex(unsigned int)",
     "location": {
       "column": "7",
-      "line": "426",
+      "line": "427",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "Dec2Hex",
@@ -54294,7 +54322,7 @@
     "display": "void CLK_Config(void)",
     "location": {
       "column": "6",
-      "line": "445",
+      "line": "446",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "CLK_Config",
@@ -54308,7 +54336,7 @@
     "display": "void UART1_setup(void)",
     "location": {
       "column": "6",
-      "line": "488",
+      "line": "489",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "UART1_setup",
@@ -54322,7 +54350,7 @@
     "display": "void GPIO_setup(void)",
     "location": {
       "column": "6",
-      "line": "505",
+      "line": "506",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "GPIO_setup",
@@ -54336,7 +54364,7 @@
     "display": "void RCC522_DeInit(void)",
     "location": {
       "column": "6",
-      "line": "517",
+      "line": "518",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "RCC522_DeInit",
@@ -54350,7 +54378,7 @@
     "display": "void assert_failed(u8 *, u32)",
     "location": {
       "column": "6",
-      "line": "571",
+      "line": "572",
       "path": "C:\\Users\\Talha\\Documents\\GitHub\\WiegandWithMFRC522\\STM8S_0StdPeriph_Template\\main.c"
     },
     "name": "assert_failed",
@@ -54358,506 +54386,562 @@
     "scope": null
   },
   {
-    "ID": "c:stdio.h@99@macro@_STDIO",
+    "ID": "c:string.h@100@macro@_STRING",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_STDIO",
+    "display": "_STRING",
     "location": {
       "column": "9",
       "line": "4",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
     },
-    "name": "_STDIO",
+    "name": "_STRING",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:stdio.h@428@macro@NULL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "NULL",
+    "ID": "c:@F@memcmp",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int memcmp(const void *, const void *, size_t)",
     "location": {
-      "column": "11",
-      "line": "22",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+      "column": "42",
+      "line": "26",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
     },
-    "name": "NULL",
+    "name": "memcmp",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:stdio.h@2964@macro@_IOFBF",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_IOFBF",
+    "ID": "c:@F@memcpy",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void * memcpy(void *, const void *, size_t)",
     "location": {
-      "column": "11",
-      "line": "89",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+      "column": "42",
+      "line": "28",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
     },
-    "name": "_IOFBF",
+    "name": "memcpy",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:stdio.h@2993@macro@_IOLBF",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_IOLBF",
+    "ID": "c:@F@memmove",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void * memmove(void *, const void *, size_t)",
     "location": {
-      "column": "11",
-      "line": "90",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+      "column": "42",
+      "line": "30",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
     },
-    "name": "_IOLBF",
+    "name": "memmove",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:stdio.h@3022@macro@_IONBF",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_IONBF",
+    "ID": "c:@F@memset",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void * memset(void *, int, size_t)",
     "location": {
-      "column": "11",
-      "line": "91",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+      "column": "42",
+      "line": "31",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
     },
-    "name": "_IONBF",
+    "name": "memset",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:stdio.h@3051@macro@BUFSIZ",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "BUFSIZ",
+    "ID": "c:@F@strcat",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strcat(char *, const char *)",
     "location": {
-      "column": "11",
-      "line": "92",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+      "column": "42",
+      "line": "32",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
     },
-    "name": "BUFSIZ",
+    "name": "strcat",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:stdio.h@3105@macro@FOPEN_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "FOPEN_MAX",
+    "ID": "c:@F@strcmp",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int strcmp(const char *, const char *)",
     "location": {
-      "column": "13",
-      "line": "94",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+      "column": "42",
+      "line": "34",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
     },
-    "name": "FOPEN_MAX",
+    "name": "strcmp",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:stdio.h@3144@macro@TMP_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TMP_MAX",
+    "ID": "c:@F@strcoll",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int strcoll(const char *, const char *)",
     "location": {
-      "column": "11",
+      "column": "42",
+      "line": "35",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
+    },
+    "name": "strcoll",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strcpy",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strcpy(char *, const char *)",
+    "location": {
+      "column": "42",
+      "line": "36",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
+    },
+    "name": "strcpy",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strcspn",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "size_t strcspn(const char *, const char *)",
+    "location": {
+      "column": "42",
+      "line": "38",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
+    },
+    "name": "strcspn",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strerror",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strerror(int)",
+    "location": {
+      "column": "42",
+      "line": "39",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
+    },
+    "name": "strerror",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strlen",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "size_t strlen(const char *)",
+    "location": {
+      "column": "42",
+      "line": "40",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
+    },
+    "name": "strlen",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strncat",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strncat(char *, const char *, size_t)",
+    "location": {
+      "column": "42",
+      "line": "41",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
+    },
+    "name": "strncat",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strncmp",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int strncmp(const char *, const char *, size_t)",
+    "location": {
+      "column": "42",
+      "line": "43",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
+    },
+    "name": "strncmp",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strncpy",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strncpy(char *, const char *, size_t)",
+    "location": {
+      "column": "42",
+      "line": "45",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
+    },
+    "name": "strncpy",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strspn",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "size_t strspn(const char *, const char *)",
+    "location": {
+      "column": "42",
+      "line": "47",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
+    },
+    "name": "strspn",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strtok",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strtok(char *, const char *)",
+    "location": {
+      "column": "42",
+      "line": "48",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
+    },
+    "name": "strtok",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strxfrm",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "size_t strxfrm(char *, const char *, size_t)",
+    "location": {
+      "column": "42",
+      "line": "50",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
+    },
+    "name": "strxfrm",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strdup",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strdup(const char *)",
+    "location": {
+      "column": "40",
+      "line": "54",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
+    },
+    "name": "strdup",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strcasecmp",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int strcasecmp(const char *, const char *)",
+    "location": {
+      "column": "40",
+      "line": "55",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
+    },
+    "name": "strcasecmp",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strncasecmp",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int strncasecmp(const char *, const char *, size_t)",
+    "location": {
+      "column": "40",
+      "line": "56",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
+    },
+    "name": "strncasecmp",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strtok_r",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strtok_r(char *, const char *, char **)",
+    "location": {
+      "column": "40",
+      "line": "58",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
+    },
+    "name": "strtok_r",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strnlen",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "size_t strnlen(const char *, size_t)",
+    "location": {
+      "column": "40",
+      "line": "59",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
+    },
+    "name": "strnlen",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@memchr",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void * memchr(const void *, int, size_t)",
+    "location": {
+      "column": "37",
+      "line": "81",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
+    },
+    "name": "memchr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strchr",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strchr(const char *, int)",
+    "location": {
+      "column": "37",
+      "line": "82",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
+    },
+    "name": "strchr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strpbrk",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strpbrk(const char *, const char *)",
+    "location": {
+      "column": "37",
+      "line": "83",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
+    },
+    "name": "strpbrk",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strrchr",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strrchr(const char *, int)",
+    "location": {
+      "column": "37",
+      "line": "84",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
+    },
+    "name": "strrchr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strstr",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strstr(const char *, const char *)",
+    "location": {
+      "column": "37",
+      "line": "85",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
+    },
+    "name": "strstr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_Memchr",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void * __iar_Memchr(const void *, int, size_t)",
+    "location": {
+      "column": "35",
+      "line": "95",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
+    },
+    "name": "__iar_Memchr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_Strchr",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * __iar_Strchr(const char *, int)",
+    "location": {
+      "column": "35",
       "line": "96",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
     },
-    "name": "TMP_MAX",
+    "name": "__iar_Strchr",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:stdio.h@3175@macro@FILENAME_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "FILENAME_MAX",
+    "ID": "c:@F@__iar_Strerror",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * __iar_Strerror(int, char *)",
     "location": {
-      "column": "11",
+      "column": "35",
       "line": "97",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
     },
-    "name": "FILENAME_MAX",
+    "name": "__iar_Strerror",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:stdio.h@3206@macro@L_tmpnam",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "L_tmpnam",
+    "ID": "c:@F@__iar_Strpbrk",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * __iar_Strpbrk(const char *, const char *)",
     "location": {
-      "column": "11",
+      "column": "35",
       "line": "98",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
     },
-    "name": "L_tmpnam",
+    "name": "__iar_Strpbrk",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:stdio.h@3335@macro@EOF",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "EOF",
+    "ID": "c:@F@__iar_Strrchr",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * __iar_Strrchr(const char *, int)",
     "location": {
-      "column": "9",
-      "line": "103",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+      "column": "35",
+      "line": "99",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
     },
-    "name": "EOF",
+    "name": "__iar_Strrchr",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:stdio.h@3365@macro@SEEK_SET",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SEEK_SET",
+    "ID": "c:@F@__iar_Strstr",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * __iar_Strstr(const char *, const char *)",
     "location": {
-      "column": "9",
-      "line": "104",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+      "column": "35",
+      "line": "100",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
     },
-    "name": "SEEK_SET",
+    "name": "__iar_Strstr",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:stdio.h@3392@macro@SEEK_CUR",
-    "What": "MacroDef",
+    "ID": "c:@F@memchr",
+    "What": "Function",
     "defdec": "Def",
-    "display": "SEEK_CUR",
-    "location": {
-      "column": "9",
-      "line": "105",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
-    },
-    "name": "SEEK_CUR",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdio.h@3419@macro@SEEK_END",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SEEK_END",
-    "location": {
-      "column": "9",
-      "line": "106",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
-    },
-    "name": "SEEK_END",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdio.h@T@fpos_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "_Fpost",
-    "location": {
-      "column": "16",
-      "line": "110",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
-    },
-    "name": "fpos_t",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdio.h@3657@macro@__PRINTFPR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__PRINTFPR",
+    "display": "void * memchr(const void *, int, size_t)",
     "location": {
       "column": "11",
-      "line": "117",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+      "line": "170",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
     },
-    "name": "__PRINTFPR",
+    "name": "memchr",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:stdio.h@3786@macro@__SCANFPR",
-    "What": "MacroDef",
+    "ID": "c:@F@strchr",
+    "What": "Function",
     "defdec": "Def",
-    "display": "__SCANFPR",
+    "display": "char * strchr(const char *, int)",
     "location": {
       "column": "11",
-      "line": "119",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+      "line": "176",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
     },
-    "name": "__SCANFPR",
+    "name": "strchr",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@F@__gets",
+    "ID": "c:@F@strpbrk",
     "What": "Function",
-    "defdec": "Dec",
-    "display": "char * __gets(char *, int)",
+    "defdec": "Def",
+    "display": "char * strpbrk(const char *, const char *)",
     "location": {
-      "column": "34",
-      "line": "180",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
-    },
-    "name": "__gets",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@gets",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * gets(char *)",
-    "location": {
-      "column": "34",
-      "line": "181",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
-    },
-    "name": "gets",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@perror",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void perror(const char *)",
-    "location": {
-      "column": "32",
+      "column": "11",
       "line": "182",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
     },
-    "name": "perror",
+    "name": "strpbrk",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@F@printf",
+    "ID": "c:@F@strrchr",
     "What": "Function",
-    "defdec": "Dec",
-    "display": "int printf(const char *, ...)",
+    "defdec": "Def",
+    "display": "char * strrchr(const char *, int)",
     "location": {
-      "column": "42",
-      "line": "183",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
-    },
-    "name": "printf",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@puts",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int puts(const char *)",
-    "location": {
-      "column": "31",
-      "line": "184",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
-    },
-    "name": "puts",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@scanf",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int scanf(const char *, ...)",
-    "location": {
-      "column": "42",
-      "line": "185",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
-    },
-    "name": "scanf",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@sprintf",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int sprintf(char *, const char *, ...)",
-    "location": {
-      "column": "42",
-      "line": "186",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
-    },
-    "name": "sprintf",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@sscanf",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int sscanf(const char *, const char *, ...)",
-    "location": {
-      "column": "42",
+      "column": "11",
       "line": "188",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
     },
-    "name": "sscanf",
+    "name": "strrchr",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@F@tmpnam",
+    "ID": "c:@F@strstr",
     "What": "Function",
-    "defdec": "Dec",
-    "display": "char * tmpnam(char *)",
+    "defdec": "Def",
+    "display": "char * strstr(const char *, const char *)",
     "location": {
-      "column": "34",
-      "line": "190",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+      "column": "11",
+      "line": "194",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
     },
-    "name": "tmpnam",
+    "name": "strstr",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@F@__ungetchar",
+    "ID": "c:@F@strerror",
     "What": "Function",
-    "defdec": "Dec",
-    "display": "int __ungetchar(int)",
+    "defdec": "Def",
+    "display": "char * strerror(int)",
     "location": {
-      "column": "31",
-      "line": "192",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+      "column": "9",
+      "line": "201",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
     },
-    "name": "__ungetchar",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vprintf",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int vprintf(const char *, __Va_list)",
-    "location": {
-      "column": "42",
-      "line": "193",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
-    },
-    "name": "vprintf",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vscanf",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int vscanf(const char *, __Va_list)",
-    "location": {
-      "column": "44",
-      "line": "196",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
-    },
-    "name": "vscanf",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vsscanf",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int vsscanf(const char *, const char *, __Va_list)",
-    "location": {
-      "column": "44",
-      "line": "198",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
-    },
-    "name": "vsscanf",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vsprintf",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int vsprintf(char *, const char *, __Va_list)",
-    "location": {
-      "column": "43",
-      "line": "202",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
-    },
-    "name": "vsprintf",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__write_array",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "size_t __write_array(const void *, size_t, size_t)",
-    "location": {
-      "column": "36",
-      "line": "206",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
-    },
-    "name": "__write_array",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@snprintf",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int snprintf(char *, size_t, const char *, ...)",
-    "location": {
-      "column": "44",
-      "line": "208",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
-    },
-    "name": "snprintf",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vsnprintf",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int vsnprintf(char *, size_t, const char *, __Va_list)",
-    "location": {
-      "column": "44",
-      "line": "210",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
-    },
-    "name": "vsnprintf",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@getchar",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int getchar(void)",
-    "location": {
-      "column": "32",
-      "line": "215",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
-    },
-    "name": "getchar",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@putchar",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int putchar(int)",
-    "location": {
-      "column": "32",
-      "line": "216",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
-    },
-    "name": "putchar",
+    "name": "strerror",
     "origin": "system_include",
     "scope": null
   },
@@ -56618,930 +56702,6 @@
     "scope": null
   },
   {
-    "ID": "c:string.h@100@macro@_STRING",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_STRING",
-    "location": {
-      "column": "9",
-      "line": "4",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "_STRING",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@memcmp",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int memcmp(const void *, const void *, size_t)",
-    "location": {
-      "column": "42",
-      "line": "26",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "memcmp",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@memcpy",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void * memcpy(void *, const void *, size_t)",
-    "location": {
-      "column": "42",
-      "line": "28",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "memcpy",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@memmove",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void * memmove(void *, const void *, size_t)",
-    "location": {
-      "column": "42",
-      "line": "30",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "memmove",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@memset",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void * memset(void *, int, size_t)",
-    "location": {
-      "column": "42",
-      "line": "31",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "memset",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strcat",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strcat(char *, const char *)",
-    "location": {
-      "column": "42",
-      "line": "32",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strcat",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strcmp",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int strcmp(const char *, const char *)",
-    "location": {
-      "column": "42",
-      "line": "34",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strcmp",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strcoll",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int strcoll(const char *, const char *)",
-    "location": {
-      "column": "42",
-      "line": "35",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strcoll",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strcpy",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strcpy(char *, const char *)",
-    "location": {
-      "column": "42",
-      "line": "36",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strcpy",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strcspn",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "size_t strcspn(const char *, const char *)",
-    "location": {
-      "column": "42",
-      "line": "38",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strcspn",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strerror",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strerror(int)",
-    "location": {
-      "column": "42",
-      "line": "39",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strerror",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strlen",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "size_t strlen(const char *)",
-    "location": {
-      "column": "42",
-      "line": "40",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strlen",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strncat",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strncat(char *, const char *, size_t)",
-    "location": {
-      "column": "42",
-      "line": "41",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strncat",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strncmp",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int strncmp(const char *, const char *, size_t)",
-    "location": {
-      "column": "42",
-      "line": "43",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strncmp",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strncpy",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strncpy(char *, const char *, size_t)",
-    "location": {
-      "column": "42",
-      "line": "45",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strncpy",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strspn",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "size_t strspn(const char *, const char *)",
-    "location": {
-      "column": "42",
-      "line": "47",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strspn",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strtok",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strtok(char *, const char *)",
-    "location": {
-      "column": "42",
-      "line": "48",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strtok",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strxfrm",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "size_t strxfrm(char *, const char *, size_t)",
-    "location": {
-      "column": "42",
-      "line": "50",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strxfrm",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strdup",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strdup(const char *)",
-    "location": {
-      "column": "40",
-      "line": "54",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strdup",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strcasecmp",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int strcasecmp(const char *, const char *)",
-    "location": {
-      "column": "40",
-      "line": "55",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strcasecmp",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strncasecmp",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int strncasecmp(const char *, const char *, size_t)",
-    "location": {
-      "column": "40",
-      "line": "56",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strncasecmp",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strtok_r",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strtok_r(char *, const char *, char **)",
-    "location": {
-      "column": "40",
-      "line": "58",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strtok_r",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strnlen",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "size_t strnlen(const char *, size_t)",
-    "location": {
-      "column": "40",
-      "line": "59",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strnlen",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@memchr",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void * memchr(const void *, int, size_t)",
-    "location": {
-      "column": "37",
-      "line": "81",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "memchr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strchr",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strchr(const char *, int)",
-    "location": {
-      "column": "37",
-      "line": "82",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strchr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strpbrk",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strpbrk(const char *, const char *)",
-    "location": {
-      "column": "37",
-      "line": "83",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strpbrk",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strrchr",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strrchr(const char *, int)",
-    "location": {
-      "column": "37",
-      "line": "84",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strrchr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strstr",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * strstr(const char *, const char *)",
-    "location": {
-      "column": "37",
-      "line": "85",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strstr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Memchr",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void * __iar_Memchr(const void *, int, size_t)",
-    "location": {
-      "column": "35",
-      "line": "95",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "__iar_Memchr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Strchr",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * __iar_Strchr(const char *, int)",
-    "location": {
-      "column": "35",
-      "line": "96",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "__iar_Strchr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Strerror",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * __iar_Strerror(int, char *)",
-    "location": {
-      "column": "35",
-      "line": "97",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "__iar_Strerror",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Strpbrk",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * __iar_Strpbrk(const char *, const char *)",
-    "location": {
-      "column": "35",
-      "line": "98",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "__iar_Strpbrk",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Strrchr",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * __iar_Strrchr(const char *, int)",
-    "location": {
-      "column": "35",
-      "line": "99",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "__iar_Strrchr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Strstr",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "char * __iar_Strstr(const char *, const char *)",
-    "location": {
-      "column": "35",
-      "line": "100",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "__iar_Strstr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@memchr",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void * memchr(const void *, int, size_t)",
-    "location": {
-      "column": "11",
-      "line": "170",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "memchr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strchr",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "char * strchr(const char *, int)",
-    "location": {
-      "column": "11",
-      "line": "176",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strchr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strpbrk",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "char * strpbrk(const char *, const char *)",
-    "location": {
-      "column": "11",
-      "line": "182",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strpbrk",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strrchr",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "char * strrchr(const char *, int)",
-    "location": {
-      "column": "11",
-      "line": "188",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strrchr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strstr",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "char * strstr(const char *, const char *)",
-    "location": {
-      "column": "11",
-      "line": "194",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strstr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@strerror",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "char * strerror(int)",
-    "location": {
-      "column": "9",
-      "line": "201",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\string.h"
-    },
-    "name": "strerror",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@533@macro@__INTRINSIC",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__INTRINSIC",
-    "location": {
-      "column": "11",
-      "line": "21",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__INTRINSIC",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@1804@macro@__STM8ABI_PORTABILITY_INTERNAL_LEVEL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM8ABI_PORTABILITY_INTERNAL_LEVEL",
-    "location": {
-      "column": "11",
-      "line": "65",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__STM8ABI_PORTABILITY_INTERNAL_LEVEL",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@1879@macro@_YCHECK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_YCHECK",
-    "location": {
-      "column": "9",
-      "line": "69",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "_YCHECK",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@2491@macro@__EFF_NS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NS",
-    "location": {
-      "column": "9",
-      "line": "84",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@2583@macro@__EFF_NSNW1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NSNW1",
-    "location": {
-      "column": "9",
-      "line": "85",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NSNW1",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@2688@macro@__EFF_NE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NE",
-    "location": {
-      "column": "9",
-      "line": "86",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@2767@macro@__EFF_NENR1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NENR1",
-    "location": {
-      "column": "9",
-      "line": "87",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NENR1",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@2858@macro@__EFF_NENR1R1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NENR1R1",
-    "location": {
-      "column": "9",
-      "line": "88",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NENR1R1",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@2960@macro@__EFF_NENR2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NENR2",
-    "location": {
-      "column": "9",
-      "line": "89",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NENR2",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@3051@macro@__EFF_NENR1NW2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NENR1NW2",
-    "location": {
-      "column": "9",
-      "line": "90",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NENR1NW2",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@3155@macro@__EFF_NENR1NW2R1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NENR1NW2R1",
-    "location": {
-      "column": "9",
-      "line": "91",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NENR1NW2R1",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@3272@macro@__EFF_NENW1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NENW1",
-    "location": {
-      "column": "9",
-      "line": "92",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NENW1",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@3364@macro@__EFF_NENW2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NENW2",
-    "location": {
-      "column": "9",
-      "line": "93",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NENW2",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@3456@macro@__EFF_NENW2R1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NENW2R1",
-    "location": {
-      "column": "9",
-      "line": "94",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NENW2R1",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@3559@macro@__EFF_NENW1NW2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NENW1NW2",
-    "location": {
-      "column": "9",
-      "line": "95",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NENW1NW2",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@3653@macro@__EFF_NR1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NR1",
-    "location": {
-      "column": "9",
-      "line": "96",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NR1",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@3734@macro@__EFF_NR1NW2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NR1NW2",
-    "location": {
-      "column": "9",
-      "line": "97",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NR1NW2",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@3828@macro@__EFF_NR1NW3",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NR1NW3",
-    "location": {
-      "column": "9",
-      "line": "98",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NR1NW3",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@3922@macro@__EFF_NW1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NW1",
-    "location": {
-      "column": "9",
-      "line": "99",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NW1",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@4004@macro@__EFF_NW2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NW2",
-    "location": {
-      "column": "9",
-      "line": "100",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NW2",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@4086@macro@__EFF_NW1NR2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NW1NR2",
-    "location": {
-      "column": "9",
-      "line": "101",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NW1NR2",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@4180@macro@__EFF_NW1NW2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NW1NW2",
-    "location": {
-      "column": "9",
-      "line": "102",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NW1NW2",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@4272@macro@__ATTRIBUTES",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__ATTRIBUTES",
-    "location": {
-      "column": "9",
-      "line": "107",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__ATTRIBUTES",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@4329@macro@__ATTRIBUTES_CAN_THROW",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__ATTRIBUTES_CAN_THROW",
-    "location": {
-      "column": "9",
-      "line": "108",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__ATTRIBUTES_CAN_THROW",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@4376@macro@__ATTRIBUTES_NORETURN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__ATTRIBUTES_NORETURN",
-    "location": {
-      "column": "9",
-      "line": "109",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__ATTRIBUTES_NORETURN",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@4444@macro@__ATTRIBUTES_NORETURN_CAN_THROW",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__ATTRIBUTES_NORETURN_CAN_THROW",
-    "location": {
-      "column": "9",
-      "line": "110",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__ATTRIBUTES_NORETURN_CAN_THROW",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
     "ID": "c:DLib_Defaults.h@1168@macro@_DLIB_DEFAULTS_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -58298,100 +57458,870 @@
     "scope": null
   },
   {
-    "ID": "c:ysizet.h@111@macro@_YSIZET_H",
+    "ID": "c:ycheck.h@533@macro@__INTRINSIC",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_YSIZET_H",
+    "display": "__INTRINSIC",
+    "location": {
+      "column": "11",
+      "line": "21",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__INTRINSIC",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@1804@macro@__STM8ABI_PORTABILITY_INTERNAL_LEVEL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM8ABI_PORTABILITY_INTERNAL_LEVEL",
+    "location": {
+      "column": "11",
+      "line": "65",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__STM8ABI_PORTABILITY_INTERNAL_LEVEL",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@1879@macro@_YCHECK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_YCHECK",
     "location": {
       "column": "9",
-      "line": "5",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+      "line": "69",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
     },
-    "name": "_YSIZET_H",
+    "name": "_YCHECK",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ysizet.h@333@macro@_SIZE_T",
+    "ID": "c:ycheck.h@2491@macro@__EFF_NS",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_SIZE_T",
+    "display": "__EFF_NS",
     "location": {
-      "column": "11",
-      "line": "17",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+      "column": "9",
+      "line": "84",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
     },
-    "name": "_SIZE_T",
+    "name": "__EFF_NS",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ysizet.h@352@macro@_SIZET",
+    "ID": "c:ycheck.h@2583@macro@__EFF_NSNW1",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_SIZET",
+    "display": "__EFF_NSNW1",
     "location": {
-      "column": "11",
-      "line": "18",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+      "column": "9",
+      "line": "85",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
     },
-    "name": "_SIZET",
+    "name": "__EFF_NSNW1",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ysizet.h@370@macro@_STD_USING_SIZE_T",
+    "ID": "c:ycheck.h@2688@macro@__EFF_NE",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_STD_USING_SIZE_T",
+    "display": "__EFF_NE",
     "location": {
-      "column": "11",
-      "line": "19",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+      "column": "9",
+      "line": "86",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
     },
-    "name": "_STD_USING_SIZE_T",
+    "name": "__EFF_NE",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ysizet.h@T@size_t",
+    "ID": "c:ycheck.h@2767@macro@__EFF_NENR1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NENR1",
+    "location": {
+      "column": "9",
+      "line": "87",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NENR1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@2858@macro@__EFF_NENR1R1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NENR1R1",
+    "location": {
+      "column": "9",
+      "line": "88",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NENR1R1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@2960@macro@__EFF_NENR2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NENR2",
+    "location": {
+      "column": "9",
+      "line": "89",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NENR2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@3051@macro@__EFF_NENR1NW2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NENR1NW2",
+    "location": {
+      "column": "9",
+      "line": "90",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NENR1NW2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@3155@macro@__EFF_NENR1NW2R1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NENR1NW2R1",
+    "location": {
+      "column": "9",
+      "line": "91",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NENR1NW2R1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@3272@macro@__EFF_NENW1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NENW1",
+    "location": {
+      "column": "9",
+      "line": "92",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NENW1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@3364@macro@__EFF_NENW2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NENW2",
+    "location": {
+      "column": "9",
+      "line": "93",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NENW2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@3456@macro@__EFF_NENW2R1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NENW2R1",
+    "location": {
+      "column": "9",
+      "line": "94",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NENW2R1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@3559@macro@__EFF_NENW1NW2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NENW1NW2",
+    "location": {
+      "column": "9",
+      "line": "95",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NENW1NW2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@3653@macro@__EFF_NR1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NR1",
+    "location": {
+      "column": "9",
+      "line": "96",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NR1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@3734@macro@__EFF_NR1NW2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NR1NW2",
+    "location": {
+      "column": "9",
+      "line": "97",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NR1NW2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@3828@macro@__EFF_NR1NW3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NR1NW3",
+    "location": {
+      "column": "9",
+      "line": "98",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NR1NW3",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@3922@macro@__EFF_NW1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NW1",
+    "location": {
+      "column": "9",
+      "line": "99",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NW1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@4004@macro@__EFF_NW2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NW2",
+    "location": {
+      "column": "9",
+      "line": "100",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NW2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@4086@macro@__EFF_NW1NR2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NW1NR2",
+    "location": {
+      "column": "9",
+      "line": "101",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NW1NR2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@4180@macro@__EFF_NW1NW2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NW1NW2",
+    "location": {
+      "column": "9",
+      "line": "102",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NW1NW2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@4272@macro@__ATTRIBUTES",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__ATTRIBUTES",
+    "location": {
+      "column": "9",
+      "line": "107",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__ATTRIBUTES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@4329@macro@__ATTRIBUTES_CAN_THROW",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__ATTRIBUTES_CAN_THROW",
+    "location": {
+      "column": "9",
+      "line": "108",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__ATTRIBUTES_CAN_THROW",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@4376@macro@__ATTRIBUTES_NORETURN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__ATTRIBUTES_NORETURN",
+    "location": {
+      "column": "9",
+      "line": "109",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__ATTRIBUTES_NORETURN",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@4444@macro@__ATTRIBUTES_NORETURN_CAN_THROW",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__ATTRIBUTES_NORETURN_CAN_THROW",
+    "location": {
+      "column": "9",
+      "line": "110",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__ATTRIBUTES_NORETURN_CAN_THROW",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@99@macro@_STDIO",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_STDIO",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "_STDIO",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@428@macro@NULL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NULL",
+    "location": {
+      "column": "11",
+      "line": "22",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "NULL",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@2964@macro@_IOFBF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_IOFBF",
+    "location": {
+      "column": "11",
+      "line": "89",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "_IOFBF",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@2993@macro@_IOLBF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_IOLBF",
+    "location": {
+      "column": "11",
+      "line": "90",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "_IOLBF",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3022@macro@_IONBF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_IONBF",
+    "location": {
+      "column": "11",
+      "line": "91",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "_IONBF",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3051@macro@BUFSIZ",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BUFSIZ",
+    "location": {
+      "column": "11",
+      "line": "92",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "BUFSIZ",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3105@macro@FOPEN_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FOPEN_MAX",
+    "location": {
+      "column": "13",
+      "line": "94",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "FOPEN_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3144@macro@TMP_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TMP_MAX",
+    "location": {
+      "column": "11",
+      "line": "96",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "TMP_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3175@macro@FILENAME_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FILENAME_MAX",
+    "location": {
+      "column": "11",
+      "line": "97",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "FILENAME_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3206@macro@L_tmpnam",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "L_tmpnam",
+    "location": {
+      "column": "11",
+      "line": "98",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "L_tmpnam",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3335@macro@EOF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "EOF",
+    "location": {
+      "column": "9",
+      "line": "103",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "EOF",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3365@macro@SEEK_SET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SEEK_SET",
+    "location": {
+      "column": "9",
+      "line": "104",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "SEEK_SET",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3392@macro@SEEK_CUR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SEEK_CUR",
+    "location": {
+      "column": "9",
+      "line": "105",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "SEEK_CUR",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3419@macro@SEEK_END",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SEEK_END",
+    "location": {
+      "column": "9",
+      "line": "106",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "SEEK_END",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@T@fpos_t",
     "What": "Typedef",
     "defdec": "Def",
-    "display": "_Sizet",
+    "display": "_Fpost",
     "location": {
       "column": "16",
-      "line": "20",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+      "line": "110",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
     },
-    "name": "size_t",
+    "name": "fpos_t",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ysizet.h@475@macro@__DATA_PTR_MEM_HELPER1__",
+    "ID": "c:stdio.h@3657@macro@__PRINTFPR",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__DATA_PTR_MEM_HELPER1__",
+    "display": "__PRINTFPR",
     "location": {
-      "column": "9",
-      "line": "23",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+      "column": "11",
+      "line": "117",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
     },
-    "name": "__DATA_PTR_MEM_HELPER1__",
+    "name": "__PRINTFPR",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ysizet.h@T@__data_size_t",
-    "What": "Typedef",
+    "ID": "c:stdio.h@3786@macro@__SCANFPR",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "unsigned int",
+    "display": "__SCANFPR",
     "location": {
-      "column": "1",
-      "line": "25",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+      "column": "11",
+      "line": "119",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
     },
-    "name": "__data_size_t",
+    "name": "__SCANFPR",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__gets",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * __gets(char *, int)",
+    "location": {
+      "column": "34",
+      "line": "180",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "__gets",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@gets",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * gets(char *)",
+    "location": {
+      "column": "34",
+      "line": "181",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "gets",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@perror",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void perror(const char *)",
+    "location": {
+      "column": "32",
+      "line": "182",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "perror",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@printf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int printf(const char *, ...)",
+    "location": {
+      "column": "42",
+      "line": "183",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "printf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@puts",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int puts(const char *)",
+    "location": {
+      "column": "31",
+      "line": "184",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "puts",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@scanf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int scanf(const char *, ...)",
+    "location": {
+      "column": "42",
+      "line": "185",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "scanf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@sprintf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int sprintf(char *, const char *, ...)",
+    "location": {
+      "column": "42",
+      "line": "186",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "sprintf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@sscanf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int sscanf(const char *, const char *, ...)",
+    "location": {
+      "column": "42",
+      "line": "188",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "sscanf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@tmpnam",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * tmpnam(char *)",
+    "location": {
+      "column": "34",
+      "line": "190",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "tmpnam",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__ungetchar",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int __ungetchar(int)",
+    "location": {
+      "column": "31",
+      "line": "192",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "__ungetchar",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vprintf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int vprintf(const char *, __Va_list)",
+    "location": {
+      "column": "42",
+      "line": "193",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "vprintf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vscanf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int vscanf(const char *, __Va_list)",
+    "location": {
+      "column": "44",
+      "line": "196",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "vscanf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vsscanf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int vsscanf(const char *, const char *, __Va_list)",
+    "location": {
+      "column": "44",
+      "line": "198",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "vsscanf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vsprintf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int vsprintf(char *, const char *, __Va_list)",
+    "location": {
+      "column": "43",
+      "line": "202",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "vsprintf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__write_array",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "size_t __write_array(const void *, size_t, size_t)",
+    "location": {
+      "column": "36",
+      "line": "206",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "__write_array",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@snprintf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int snprintf(char *, size_t, const char *, ...)",
+    "location": {
+      "column": "44",
+      "line": "208",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "snprintf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vsnprintf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int vsnprintf(char *, size_t, const char *, __Va_list)",
+    "location": {
+      "column": "44",
+      "line": "210",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "vsnprintf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@getchar",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int getchar(void)",
+    "location": {
+      "column": "32",
+      "line": "215",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "getchar",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@putchar",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int putchar(int)",
+    "location": {
+      "column": "32",
+      "line": "216",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "putchar",
     "origin": "system_include",
     "scope": null
   },
@@ -58662,48 +58592,6 @@
     "scope": null
   },
   {
-    "ID": "c:ystdio.h@100@macro@_YSTDIO",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_YSTDIO",
-    "location": {
-      "column": "9",
-      "line": "4",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
-    },
-    "name": "_YSTDIO",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@remove",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int remove(const char *)",
-    "location": {
-      "column": "18",
-      "line": "62",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
-    },
-    "name": "remove",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@rename",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int rename(const char *, const char *)",
-    "location": {
-      "column": "18",
-      "line": "63",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
-    },
-    "name": "rename",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
     "ID": "c:xencoding_limits.h@130@macro@_XENCODING_LIMITS_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -58784,6 +58672,146 @@
       "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
     },
     "name": "_ENCODING_CUR_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@111@macro@_YSIZET_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_YSIZET_H",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "_YSIZET_H",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@333@macro@_SIZE_T",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_SIZE_T",
+    "location": {
+      "column": "11",
+      "line": "17",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "_SIZE_T",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@352@macro@_SIZET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_SIZET",
+    "location": {
+      "column": "11",
+      "line": "18",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "_SIZET",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@370@macro@_STD_USING_SIZE_T",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_STD_USING_SIZE_T",
+    "location": {
+      "column": "11",
+      "line": "19",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "_STD_USING_SIZE_T",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@T@size_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "_Sizet",
+    "location": {
+      "column": "16",
+      "line": "20",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "size_t",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@475@macro@__DATA_PTR_MEM_HELPER1__",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__DATA_PTR_MEM_HELPER1__",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "__DATA_PTR_MEM_HELPER1__",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@T@__data_size_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned int",
+    "location": {
+      "column": "1",
+      "line": "25",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "__data_size_t",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ystdio.h@100@macro@_YSTDIO",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_YSTDIO",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+    },
+    "name": "_YSTDIO",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@remove",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int remove(const char *)",
+    "location": {
+      "column": "18",
+      "line": "62",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+    },
+    "name": "remove",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@rename",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int rename(const char *, const char *)",
+    "location": {
+      "column": "18",
+      "line": "63",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+    },
+    "name": "rename",
     "origin": "system_include",
     "scope": null
   },
