@@ -2496,7 +2496,7 @@
                 </option>
                 <option>
                     <name>ExePath</name>
-                    <state>C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\EWSTM8\STM8S103\Exe</state>
+                    <state>STM8S103\Exe</state>
                 </option>
                 <option>
                     <name>ObjPath</name>

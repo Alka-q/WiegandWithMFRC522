@@ -1,34 +1,37 @@
 main.pbi: \
-  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\loc_rc522.h \
-  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_wwdg.h \
-  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_uart1.h \
-  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_tim4.h \
-  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_tim2.h \
-  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_tim1.h \
-  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_spi.h \
-  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_rst.h \
-  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_iwdg.h \
-  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_itc.h \
-  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_i2c.h \
-  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_gpio.h \
-  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_flash.h \
-  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_exti.h \
-  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_clk.h \
-  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_beep.h \
-  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_awu.h \
-  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_adc1.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
-  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\stm8s_conf.h \
-  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ysizet.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\string.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdlib.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ystdio.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\main.c \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdio.h \
-  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\main.c
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\LIB\dlstm8mmn.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ysizet.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ystdio.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdlib.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\string.h \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template/stm8s_conf.h \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s.h \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\stm8s_conf.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_adc1.h \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc/stm8s.h \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_awu.h \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_beep.h \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_clk.h \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_exti.h \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_flash.h \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_gpio.h \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_i2c.h \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_itc.h \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_iwdg.h \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_rst.h \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_spi.h \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_tim1.h \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_tim2.h \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_tim4.h \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_uart1.h \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\STM8S_0StdPeriph_Driver\inc\stm8s_wwdg.h \
+  C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template/loc_rc522.h

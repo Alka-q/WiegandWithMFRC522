@@ -81,7 +81,8 @@ void delayY(long x)
     asm("nop");
   }
 }
-
+unsigned char HexData[8] = {0x12, 0x24, 0x23, 0x25, 0x55};
+unsigned char BinaryData[8];
 
 unsigned char ReqALL = PICC_REQALL;
 
@@ -96,9 +97,8 @@ void main(void)
   while (1)
   {
     
-    
-    
-    
+    Hex2Binary(HexData, BinaryData);
+
     
 /*  ATQBuf[2]; Card Type
     0x4400 = Mifare_UltraLight    
@@ -146,12 +146,18 @@ void main(void)
 void Hex2Binary(unsigned char *msg_string, unsigned char *PoutData)
 {
   unsigned char GData[20];
+  int a =40 ,b = 10,  sonuc;
+  
   unsigned char SData[20];
   unsigned char i;
   for(i = 0; i < 8; i++)
   {
     GData[i] = *(msg_string + i);
+    SData[i] = GData[i] % 10 ;
+    
+    *(PoutData + i) = SData[i];
   }
+  
   /*
   switch (GData[i])
   {

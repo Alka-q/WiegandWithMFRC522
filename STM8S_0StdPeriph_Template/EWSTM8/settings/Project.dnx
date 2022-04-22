@@ -12,16 +12,22 @@
         <ByteLimit>50</ByteLimit>
     </Stack>
     <DebugChecksum>
-        <Checksum>210213649</Checksum>
+        <Checksum>2556876405</Checksum>
     </DebugChecksum>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <Disassembly>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <BreakpointUsageDialog>
+        <Placement>_ 738 379 1183 662</Placement>
+    </BreakpointUsageDialog>
     <DataSample>
         <LogEnabled>0</LogEnabled>
         <GraphEnabled>0</GraphEnabled>
         <ShowTimeLog>1</ShowTimeLog>
     </DataSample>
-    <Breakpoints>
-        <Count>0</Count>
-    </Breakpoints>
     <TermIOLog>
         <LoggingEnabled>_ 0</LoggingEnabled>
         <LogFile>_ ""</LogFile>
@@ -31,16 +37,15 @@
         <LogFile>_ ""</LogFile>
         <Category>_ 0</Category>
     </LogFile>
+    <Breakpoints>
+        <Bp0>_ "STD_DATA" "HexData" 0 0 0 3 0 "" 0 ""</Bp0>
+        <Bp1>_ "STD_CODE" "{$PROJ_DIR$\..\main.c}.148.1" 1 0 0 0 "" 0 ""</Bp1>
+        <Count>2</Count>
+    </Breakpoints>
     <Aliases>
         <Count>0</Count>
         <SuppressDialog>0</SuppressDialog>
     </Aliases>
-    <CallStack>
-        <ShowArgs>0</ShowArgs>
-    </CallStack>
-    <Disassembly>
-        <MixedMode>1</MixedMode>
-    </Disassembly>
     <DebuggerSettings>
         <DisableInterruptsWhenStepping>0</DisableInterruptsWhenStepping>
         <LeaveTargetRunning>0</LeaveTargetRunning>
