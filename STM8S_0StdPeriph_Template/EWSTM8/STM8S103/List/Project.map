@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V3.11.1.207 for STM8                     22/Apr/2022  14:32:24
+# IAR ELF Linker V3.11.1.207 for STM8                     22/Apr/2022  14:46:39
 # Copyright 2010-2019 IAR Systems AB.
 #
 #    Output file  =  
@@ -8,7 +8,7 @@
 #    Map file     =  
 #        C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\EWSTM8\STM8S103\List\Project.map
 #    Command line =  
-#        -f C:\Users\Talha\AppData\Local\Temp\EW9111.tmp
+#        -f C:\Users\Talha\AppData\Local\Temp\EW9E0D.tmp
 #        (C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\EWSTM8\STM8S103\Obj\loc_rc522.o
 #        C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\EWSTM8\STM8S103\Obj\main.o
 #        C:\Users\Talha\Documents\GitHub\WiegandWithMFRC522\STM8S_0StdPeriph_Template\EWSTM8\STM8S103\Obj\stm8s_adc1.o

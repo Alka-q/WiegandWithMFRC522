@@ -99,10 +99,8 @@ void main(void)
   PcdReset();
   while (1)
   {
-    
-    Hex2Binary(HexData, FirtsD, SeconD);
+   Hex2Binary(HexData, FirtsD, SeconD);
 
-    
 /*  ATQBuf[2]; Card Type
     0x4400 = Mifare_UltraLight    
     0x0400 = Mifare_One(S50)    
@@ -138,7 +136,7 @@ void main(void)
         ATQBuf[0] = 0;
         ATQBuf[1] = 0;
         
-        for(int cnt = 0; cnt < 34; cnt++){
+        for(int cnt = 0; cnt < 20; cnt++){
           g_ucTempbuf[cnt] = 0;
 
         }
@@ -171,7 +169,6 @@ void Hex2Binary(unsigned char *msg_string, unsigned char *FirstNum, unsigned cha
   }
   */
 }
-
 /**********Hexadecimal sayi sitemini parçala************************/
 void ExplosionHexDecSys(unsigned char *ComingHex, unsigned char HexLen, unsigned char *FirstNum, unsigned char *SecNum)
 {
