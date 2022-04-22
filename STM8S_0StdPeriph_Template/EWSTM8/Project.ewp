@@ -10655,6 +10655,9 @@
     <group>
         <name>StdPeriph_Drivers</name>
         <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Downloads\stm8-master\stm8-master\src\delay.c</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\..\STM8S_0StdPeriph_Driver\src\stm8s_adc1.c</name>
         </file>
         <file>
@@ -10708,6 +10711,12 @@
     </group>
     <group>
         <name>User</name>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\STM8S_With_Mifare4UID\loc_rc522.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\STM8S_With_Mifare4UID\loc_rc522.h</name>
+        </file>
         <file>
             <name>$PROJ_DIR$\..\main.c</name>
         </file>
