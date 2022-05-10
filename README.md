@@ -147,3 +147,60 @@ void Hex2Binary(unsigned char WIC, unsigned char *msg_string, unsigned char *Fir
     *(BinaryData + a) = SendSignal[a];
   }
 }
+
+/*Örnek Led Counter Kullanımı,  from STM32F103 works*/
+    if(SndCnt == 1)
+    {
+      if(LedCount == (350))
+      {
+        HAL_GPIO_WritePin(cpu_led_GPIO_Port, cpu_led_Pin, GPIO_PIN_SET);
+        HAL_Delay(100);
+        
+      }
+      HAL_GPIO_WritePin(cpu_led_GPIO_Port, cpu_led_Pin, GPIO_PIN_RESET);
+      
+      if(LedCount == 350)
+        LedCount = 0;
+      
+      LedCount++;
+ 
+    }
+    
+/*******************************Get WIEGAND Type********************************/
+///////////////////////////////////////////////////////////////////////////////
+    if(SndCnt == 0 )
+    {
+      HAL_GPIO_WritePin(cpu_led_GPIO_Port, cpu_led_Pin, GPIO_PIN_RESET);
+      HAL_Delay(60);//
+      HAL_GPIO_WritePin(cpu_led_GPIO_Port, cpu_led_Pin, GPIO_PIN_SET);
+      HAL_Delay(20);//
+      
+      led_12_ON;
+      led_34_ON;
+
+      //if(WIGType[14] > 0)
+      //  SndCnt = 1 ;
+      HAL_Delay(100);
+      HAL_UART_Transmit(&huart1, (uint8_t*)ReqWIGType, sizeof(ReqWIGType), 50);
+
+//      for(Wcnt = 0; Wcnt < 16; Wcnt++)
+//      {
+//        WIGType[Wcnt] = UART1_rxBuffer[Wcnt];
+//      }
+      
+      if(WIGType[4] == 'W' && WIGType[6] == 'G' && WIGType[7] == 'T')
+      {
+        SndCnt = 1;
+        
+        led_12_OFF;
+        led_34_OFF;
+       // WIGType[Wcnt+9] = 0x00;
+       // WIGType[Wcnt+12] = 0x00;
+         
+        for(Wcnt = 0; Wcnt < 9; Wcnt++)
+         {
+           UART1_rxBuffer[Wcnt] = 0;
+         }
+      }
+      uartSay = 0;
+    }
