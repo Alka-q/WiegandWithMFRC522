@@ -21,7 +21,7 @@ void SendData2uSett(void);
 void SetAddress(void);
 void Sen_GET_SNR(void);
 void Send_MF_Read_CMD(void);
-void Send_MF_Write_CMD();       //Cihaza g�nderilecek WRITE CMD 
+void Send_MF_Write_CMD();       //Cihaza gönderilecek WRITE CMD 
 void SendDataToUart1(unsigned char *msg_string, unsigned char TCount);
 void SendData2Uart1(unsigned char *msg_string, unsigned char TCount);
 
@@ -150,8 +150,67 @@ void main(void)
           Binary32bit[j+24] = *(Binary01+j);
         }
       }
-    }   
+    } 
+	  
+/* Örnek Led counter Kullanımı From stm32f103...
 ////////////////////////////////////////////////////////////////////////////////
+    if(SndCnt == 1)
+    {
+      if(LedCount == (350))
+      {
+        HAL_GPIO_WritePin(cpu_led_GPIO_Port, cpu_led_Pin, GPIO_PIN_SET);
+        HAL_Delay(100);
+        
+      }
+      HAL_GPIO_WritePin(cpu_led_GPIO_Port, cpu_led_Pin, GPIO_PIN_RESET);
+      
+      if(LedCount == 350)
+        LedCount = 0;
+      
+      LedCount++;
+ 
+    }
+    
+// /*******************************Get WIEGAND Type********************************
+///////////////////////////////////////////////////////////////////////////////
+    if(SndCnt == 0 )
+    {
+      HAL_GPIO_WritePin(cpu_led_GPIO_Port, cpu_led_Pin, GPIO_PIN_RESET);
+      HAL_Delay(60);//
+      HAL_GPIO_WritePin(cpu_led_GPIO_Port, cpu_led_Pin, GPIO_PIN_SET);
+      HAL_Delay(20);//
+      
+      led_12_ON;
+      led_34_ON;
+
+      //if(WIGType[14] > 0)
+      //  SndCnt = 1 ;
+      HAL_Delay(100);
+      HAL_UART_Transmit(&huart1, (uint8_t*)ReqWIGType, sizeof(ReqWIGType), 50);
+
+//      for(Wcnt = 0; Wcnt < 16; Wcnt++)
+//      {
+//        WIGType[Wcnt] = UART1_rxBuffer[Wcnt];
+//      }
+      
+      if(WIGType[4] == 'W' && WIGType[6] == 'G' && WIGType[7] == 'T')
+      {
+        SndCnt = 1;
+        
+        led_12_OFF;
+        led_34_OFF;
+       // WIGType[Wcnt+9] = 0x00;
+       // WIGType[Wcnt+12] = 0x00;
+         
+        for(Wcnt = 0; Wcnt < 9; Wcnt++)
+         {
+           UART1_rxBuffer[Wcnt] = 0;
+         }
+      }
+      uartSay = 0;
+    } */
+///////////////////////////////////////////////////////////////////////////////////////////////	  
+	  
     
      status = PcdSelect(g_ucTempbuf);
      if(status != MI_OK)
@@ -403,7 +462,7 @@ void CLK_Config(void)
 ////////////////////////////////////////////////////////////////////////////////
 /*******************************************************************************
 
-      // Bursasi i�in SDK yazilmasi gerek.
+      // Bursasi için SDK yazilmasi gerek.
       // ilk iki byte'i AA, 00, olmali.
       // SendBuf[5] = 0x4D mesaj byte'i.
       // " SendUart1Setting(); " Fonksiyonu yazilacak.
